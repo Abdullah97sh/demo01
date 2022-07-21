@@ -1,0 +1,111 @@
+/*This is universal * selector */
+* {
+  background-color: #eaeadb;
+}
+
+header h1 {
+  color: aliceblue;
+  background-color: gray;
+  text-align: center;
+}
+
+main a {
+  color: rgb(15, 152, 15);
+  background-color: rgb(225, 197, 155);
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* This is id Selector */
+#myHeader {
+  color: rgb(233, 12, 12);
+  background-color: rgb(11, 222, 201);
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* text-align: right; */
+}
+
+/** This is class Selector **/
+.pTextCss {
+  color: rgb(102, 80, 23);
+  font-size: x-large;
+  font-family: Cursive;
+
+  /* This is for Box Model */
+  width: 350px; /* width and height JUST for content area */
+  height: 500px;
+  margin: 90px;
+  border: 20px solid rgb(98, 95, 95);
+  padding: 60px;
+}
+
+
+/* This is tag selector */
+img {
+  /* display: block; 
+  display: inline;*/
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+}
+
+p {
+  color: blue;
+  font-size: larger;
+}
+
+table,
+th,
+td {
+  border: 3px solid rgb(203, 88, 88);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  background-color: #8ed4d4;
+}
+
+tfoot tr td {
+  border-collapse: collapse;
+}
+
+main div {
+  margin: 50px;
+  pa
+}
+
+/* .imgBoxModel {
+  position: absolute;
+} */
+
+#pAbsolute{
+  position: absolute;
+  border: 5px solid #73AD21;
+}
+
+#pStatic{
+  position: static;
+  border: 5px solid #39beca;
+}
+
+#pRelative{
+  position: relative;
+  border: 5px solid rgb(150, 18, 18);
+  right: 50px;
+}
+
+#pSticky{
+  position: sticky;
+  border: 5px solid rgb(188, 33, 188);
+  bottom: 80px;
+}
+
+#pFixed{
+  position: fixed;
+  bottom: 0;
+  left: 500px;
+  border: 5px solid rgb(220, 229, 47);
+}
+
+
